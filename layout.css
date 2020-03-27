@@ -47,3 +47,7 @@ body{
     font-size: 20px;
     border-radius: 20px;
 }
+@media screen and (max-width:400px) {
+     .main, .info {
+      width:300px; /* The width is 100%, when the viewport is 800px or smaller */
+    }
