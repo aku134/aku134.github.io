@@ -1,0 +1,49 @@
+body{
+    background-image: url("bg.jpg");
+    width: 100%;
+    background-position: center; ;
+
+
+}
+.analyse{
+    background-color:#4b10ee;
+    text-align:center;
+    border:none;
+    padding: 15px 32px;
+    font-size: 20px;
+    display:inline-block;
+    -webkit-transition-duration: 0.2s;
+    border-radius: 25px;
+    
+}
+.analyse:hover{
+    background-color:lightblue;
+}
+.info{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(240, 6, 6);
+    font-size:20px;
+    text-align:left;
+
+}
+.main{
+
+    text-align: center;
+    border: 5px ;
+    margin-top: 40px;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  margin-left: 450px;
+    padding:20px;
+    width:300px;
+    background-color: rgb(230, 138, 194);
+
+}
+.head{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.input{
+    font-size: 20px;
+    border-radius: 20px;
+}
