@@ -49,5 +49,5 @@ body{
 }
 @media screen and (max-width:400px) {
      .main, .info {
-      width:300px; /* The width is 100%, when the viewport is 800px or smaller */
+      width:300px; 
     }
