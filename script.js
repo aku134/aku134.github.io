@@ -49,7 +49,7 @@ function s_count(input)
 }
 function sc_count(input)
 {
-   var sc=":,?,/,!,$,%,@,#,^,*,-,+,=,>,<,{},[],(),&"
+   var sc=":,?,/,!,$,%,@,#,^,*,-,+,=,>,<,{},[],(),&,;,\,.,~"
    var scount=0
    for(var i=0;i<input.length;i++)
    {
