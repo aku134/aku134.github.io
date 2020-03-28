@@ -65,7 +65,7 @@ function sc_count(input)
 btn.addEventListener("click", function(){
     len.textContent="Length of string:"+input.value.length;
     vcount.textContent="Total no. of vowels:"+v_count(input.value);
-    ccount.textContent="Total no. of consonants:"+c_count(input.value);
+    ccount.textContent="Total no. of consonants:"+(c_count(input.value)-s_count(input.value));
     scount.textContent="Total no. of spaces:"+s_count(input.value);
     sccount.textContent="Total no. of special characters:"+sc_count(input.value);
 
